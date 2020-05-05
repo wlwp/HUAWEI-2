@@ -1,0 +1,260 @@
+/* header */
+.header {
+  height: 32px;
+  line-height: 32px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.header_left ul li {
+  float: left;
+  height: 32px;
+  font-size: 12px;
+  color: #817d7a;
+}
+.header_left ul li a {
+  float: left;
+  padding: 0 10px;
+}
+.header_right ul li {
+  float: left;
+  font-size: 12px;
+  color: #817d7a;
+}
+.header_right ul li a {
+  float: left;
+  padding: 0 10px;
+}
+.header_right ul li:nth-child(-n + 2) a {
+  color: #000000;
+}
+/* area */
+.area_left {
+  padding: 35px 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.area_left a {
+  display: block;
+  position: absolute;
+  top: 42px;
+  right: -79px;
+  width: 70px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.area_right a {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+.area_right a img {
+  margin: 0 auto;
+  margin-bottom: 3px;
+}
+/* nav */
+.nav {
+  height: 40px;
+  line-height: 40px;
+  background-color: #ca151e;
+  /* padding-left: 440px;
+  box-sizing: border-box; */
+}
+.nav ul {
+  padding-left: 240px;
+  box-sizing: border-box;
+}
+.nav ul li {
+  height: 40px;
+  float: left;
+  padding: 0 25px;
+}
+.nav ul li a {
+  color: #ffffff;
+}
+
+/* banner */
+.banner {
+  height: 448px;
+  background-image: url('./images/bg.jpg');
+  background-position: center;
+}
+.banner .container {
+  height: 100%;
+}
+.big {
+  position: relative;
+}
+
+.banner_list {
+  width: 240px;
+  height: 488px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  left: 160px;
+  top: 0;
+}
+.banner_list ul li {
+  height: 40px;
+  line-height: 40px;
+  padding-left: 15px;
+}
+
+.banner_list ul li a {
+  color: #ffffff;
+  font-size: 14px;
+  display: block;
+}
+/* product */
+.product {
+  margin-top: 20px;
+}
+.product .pro_top ul li {
+  float: left;
+  width: 25%;
+}
+.product .pro_top ul li a {
+  display: block;
+}
+.pro_bottom {
+  margin-top: 10px;
+}
+.pro_bottom ul li {
+  float: left;
+  width: 33%;
+  height: 200px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.pro_bottom ul li a {
+  display: block;
+  height: 100%;
+}
+.pro_bottom ul li a .left {
+  margin-top: 30px;
+  /* margin-left: 30px; */
+  width: 186px;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+.pro_bottom ul li a .left p:nth-child(1) {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+.pro_bottom ul li a .left p:nth-child(2) {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.pro_bottom ul li a .left p:nth-child(3) {
+  color: #ca151e;
+  font-size: 14px;
+  font-weight: bold;
+}
+.pro_bottom ul li:nth-last-child(-n + 2) {
+  margin-left: 5px;
+}
+/* slogan */
+.slogan {
+  margin-top: 50px;
+  height: 80px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.slogan ul li {
+  float: left;
+  width: 25%;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+.slogan ul li a div {
+  width: 48px;
+  height: 48px;
+  background-image: url('./images/icon.png');
+  margin-left: 40px;
+  margin-top: 16px;
+  margin-right: 20px;
+}
+.slogan ul li:nth-child(1) a div {
+  background-position: -214px 0;
+}
+.slogan ul li:nth-child(2) a div {
+  background-position: -269px 0;
+}
+.slogan ul li:nth-child(3) a div {
+  background-position: -322px 0;
+}
+.slogan ul li:nth-child(4) a div {
+  background-position: -374px 0;
+}
+/* link */
+.link {
+  padding: 30px 0;
+}
+
+.link dl {
+  float: left;
+  width: 20%;
+  text-align: center;
+  font-size: 12px;
+  color: #817d7a;
+  line-height: 22px;
+}
+.link dl dt {
+  line-height: 34px;
+  color: #666666;
+  position: relative;
+}
+.link dl dt i {
+  display: inline-block;
+  width: 17px;
+  height: 15px;
+  background-image: url('./images/icon.png');
+  position: absolute;
+  left: 73px;
+  top: 8px;
+}
+.link dl:nth-child(1) dt i {
+  background-position: 0 -53px;
+}
+.link dl:nth-child(2) dt i {
+  background-position: -25px -53px;
+}
+.link dl:nth-child(3) dt i {
+  background-position: -52px -53px;
+}
+.link dl:nth-child(4) dt i {
+  background-position: -77px -53px;
+}
+.link dl:nth-child(5) dt i {
+  background-position: 0 -77px;
+}
+/* footer */
+.footer {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+.footer p:nth-last-child(-n + 2) {
+  line-height: 24px;
+  color: #817d7a;
+}
+.footer p.gongan {
+  position: relative;
+}
+.footer p.gongan img {
+  position: absolute;
+  left: 300px;
+  top: 4px;
+}
+.footer .png img {
+  display: inline;
+}
